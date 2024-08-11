@@ -1,0 +1,8 @@
+.hero-block-setter
+{
+    height :80vh;
+    padding-top: 11rem;
+}
+.hero-custom-line-spacing {
+    line-height: 1.25; /* Adjust the value as needed */
+}

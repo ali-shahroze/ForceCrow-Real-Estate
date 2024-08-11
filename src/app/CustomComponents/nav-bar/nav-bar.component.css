@@ -10,4 +10,10 @@
 .nav-link
 {
     color: #FFF !important;
+    font-weight: lighter !important;
+}
+.nav-link.active
+{
+    font-weight: normal !important;
+    text-decoration: underline !important;
 }

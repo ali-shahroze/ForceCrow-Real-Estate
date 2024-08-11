@@ -7,11 +7,41 @@
 }
 .layer
 {
-    background-image: linear-gradient(#004e69 8%, #00263800);
+    background-image: linear-gradient(#004e69d1 8%, #00263800);
     width: 100%;
-    height: 39%;
+    height: 100%;
 }
 .hero-property-word
 {
     font-size: 8rem;
+    
+}
+.hero-main-setter
+{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 3px 4px 8px #0b3645e8;
+}
+.hero-internal-text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hero-small-text-left
+{
+    margin-bottom: -3rem;
+}
+.hero-small-text-right{
+    margin-top: -3rem;
+}
+.hero-consultant-div
+{
+    display: flex;
+    width: 43%;
+    height: 20vh;
+    justify-content: flex-end;
 }
