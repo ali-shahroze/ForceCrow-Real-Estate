@@ -1,8 +1,40 @@
 .hero-block-setter
 {
-    height :80vh;
-    padding-top: 11rem;
+    height :70vh;
+    padding-top: 9rem;
 }
 .hero-custom-line-spacing {
     line-height: 1.25; /* Adjust the value as needed */
 }
+.image-setter
+{
+    width: 192%;
+    margin-left: -13em;
+    transform: scaleX(-1);
+}
+.diagonal-left {
+    width: 1rem;
+    height: 2rem;
+    background-color: #747474;
+    transform: skewX(30deg);
+    transform-origin: top;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .diagonal {
+    width: 19rem;
+    transform: skewX(30deg);
+    transform-origin: top;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .diagonal>span {
+    transform: skewX(-30deg);
+    color: white;
+  }

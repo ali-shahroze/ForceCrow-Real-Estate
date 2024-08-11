@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './hero-text-block.component.css'
 })
 export class HeroTextBlockComponent {
-
+  imagePath = 'assets/img/hero-house.png';
 }
