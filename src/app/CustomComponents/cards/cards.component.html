@@ -1,26 +1,11 @@
-<div class="bg-dark cards-main d-flex p-4 justify-content-evenly">
-    <div class="card align-middle" style="width: 18rem;">
-        <img class="card-img-top" src="https://forcecrow.com/wp-content/uploads/2024/08/dubai-scaled.webp" alt="Card image cap">
+<div class="bg-dark cards-main d-flex p-4 justify-content-evenly flex-wrap" >
+    <div class="card align-middle" style="width: 18rem;" *ngFor="let card of cards; index as i;" id="{{i}}-{{card.title}}">
+        <img class="card-img-top" src="{{card.imageSrc}}" alt="{{card.altText}}">
         <div class="card-body">
-          <h5 class="card-title text-uppercase">Dubai</h5>
-          <p class="card-text">Discover the futuristic skyline and unparalleled luxury of Dubai, where modernity meets opulence.</p>
-          <a href="#" class="btn btn-primary">Explore Dubai</a>
+          <h5 class="card-title text-uppercase">{{card.title}}</h5>
+          <p class="card-text">{{card.description}}</p>
+          <a href="#" class="btn btn-primary">Explore {{card.title}}</a>
         </div>
       </div>
-      <div class="card align-middle" style="width: 18rem;">
-        <img class="card-img-top" src="https://forcecrow.com/wp-content/uploads/2024/08/maxico-scaled.webp" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title text-uppercase">Maxico</h5>
-          <p class="card-text">Experience the vibrant culture and breathtaking landscapes of Mexico, a destination where every corner tells a story.</p>
-          <a href="#" class="btn btn-primary">Explore Maxico</a>
-        </div>
-      </div>
-      <div class="card align-middle" style="width: 18rem;">
-        <img class="card-img-top" src="https://forcecrow.com/wp-content/uploads/2024/08/london-1-scaled.webp" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title text-uppercase">London</h5>
-          <p class="card-text">Immerse yourself in the timeless charm and rich history of London, a city where tradition and innovation coexist.</p>
-          <a href="#" class="btn btn-primary">Explore London</a>
-        </div>
-      </div>
+     
 </div>
