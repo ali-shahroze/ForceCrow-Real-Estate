@@ -1,0 +1,17 @@
+.hero-section
+{
+    height: 100vh;
+    background-image: url("../../assets/images/homepage-image.jpg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.layer
+{
+    background-image: linear-gradient(#004e69 8%, #00263800);
+    width: 100%;
+    height: 39%;
+}
+.hero-property-word
+{
+    font-size: 8rem;
+}
